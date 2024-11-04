@@ -36,6 +36,7 @@ def main():
 
         if user_prompt.lower() == "exit":
             print("Exiting Recipe Assistant.")
+            speak("Exiting Recipe Assistant.")
             break
 
         elif user_prompt:
